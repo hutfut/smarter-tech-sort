@@ -1,0 +1,16 @@
+{
+  "name": "smarter-tech-challenge",
+  "version": "1.0.0",
+  "description": "Package sorting function for Smarter Technology's robotic automation factory",
+  "main": "src/sort.ts",
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "start": "ts-node src/sort.ts"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.0",
+    "vitest": "^1.6.0",
+    "ts-node": "^10.9.0"
+  }
+}
